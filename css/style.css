@@ -1,0 +1,133 @@
+header{
+  background-color: #DD5F32;
+  display: block;
+}
+ 
+#tigerImage1 {  
+  display: inline-block;
+  height: 5em;
+  width: 90px;
+  background-size: cover;
+  background-image: url('http://3.bp.blogspot.com/-iixB_Z2tn10/T7LPsxCBjgI/AAAAAAAARGE/BrNkqJVY9bk/s1600/Tiger+Yawning+6x4.jpg');
+  border: 3px solid black;
+  border-radius:30px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+h1 {
+  display: block;
+  width: 235px;
+  margin: -4% 0% 0% 25%;
+  padding-top: -10px;
+  font-family: Apple Chancery;
+  letter-spacing: -.05em;
+  text-decoration: bold;
+  border: 3px solid black;
+
+  
+}
+
+h2 {
+  color: #E65F0D;
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+
+.horzList{
+  margin: -118px 7.5% 0% 0%;
+  text-align:right;  
+  
+  padding: 7.5% 0% 1% 0%;
+}
+
+.horzList li{
+  margin-right: 15px;
+  display: inline-flex;
+  font-size: 1.35em;
+
+}
+
+a {
+  color: black;
+}
+
+section {
+  float: left;
+  background-color: #92B06A;
+  width: 52%;
+  margin: .5% .5% 10px .5%;
+  padding: 1%;
+  display: inline-block;
+  min-height: 450px;
+  
+}
+
+#geekThumb {
+  background-image: url('http://cf.geekdo-static.com/images/geekdo/bgg_cornerlogo.png');
+  height: 90px;
+  width: 20%;
+  background-size: cover;
+  float: left;
+  
+  margin-top: 10px;
+  margin-left: .2%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  
+  
+}
+
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 100%;
+}
+aside {
+  float: right;
+  background-color: #ADC4CC;
+  width: 44%;
+  text-align: right;
+  margin: .5%;
+  height: 475px;
+  
+}px
+
+.longList li:nth-child(2n+1){
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-right: 8%;
+  
+}
+
+.longList li:nth-child(2n){
+  background-color: #4298B5;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-right: 8%;
+}
+
+footer {
+  background-color: #4298B5;
+  clear: both;
+  text-align: center;
+  height: 60px;
+  margin-top: 35px;
+  padding-top: 30px;
+}
+
+
+
+ul
+{
+    list-style-type: none;
+}
